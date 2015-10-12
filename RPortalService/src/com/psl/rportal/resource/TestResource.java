@@ -16,8 +16,8 @@ import javax.ws.rs.core.MediaType;
 // The browser requests per default the HTML MIME type.
 
 //Sets the path to base URL + /hello
-@Path("/hello")
-public class Hello {
+@Path("/test")
+public class TestResource {
 
   // This method is called if TEXT_PLAIN is request
   @GET
